@@ -1,13 +1,13 @@
 @echo off
 echo VERSION OFFICAL LMI
 echo SOURCES/CODES START
-echo  
+echo -----
 echo LMI CODES OPEN
 echo LMI TAKE SOME SOURCES
 echo LMI AND JAVA VERIFY FILES
 echo LMI MODS/PLUGINS LOADING
 echo LMI LIBS ACTIVATE
-echo  
+echo -----
 echo VERIFY ALL FILES
 echo ALL = OK
 echo START LMI-L
@@ -15,6 +15,9 @@ echo START LMI-L
 timeout 1
 
 npm start
-echo STOP SEE
+echo STOP SEE? 
+echo IF YES = STOP SYSTEM
 echo EXIT FUNCTION
+timeout 1
+echo STOP ALL
 exit
