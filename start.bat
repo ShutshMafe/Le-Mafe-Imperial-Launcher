@@ -1,6 +1,18 @@
 @echo off
-echo START
-timeout 2
+echo VERSION OFFICAL LMI
+echo SOURCES/CODES START
+echo  
+echo LMI CODES OPEN
+echo LMI TAKE SOME SOURCES
+echo LMI AND JAVA VERIFY FILES
+echo LMI MODS/PLUGINS LOADING
+echo LMI LIBS ACTIVATE
+echo  
+echo VERIFY ALL FILES
+echo ALL = OK
+echo START LMI-L
+
+timeout 1
 
 npm start
 echo STOP SEE

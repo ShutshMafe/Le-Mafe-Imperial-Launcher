@@ -7,7 +7,7 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
-const dataPath = path.join(sysRoot, '.LMIclient')
+const dataPath = path.join(sysRoot, 'LMIclient')
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
 
@@ -79,7 +79,7 @@ const DEFAULT_CONFIG = {
     settings: {
         game: {
             resWidth: 1280,
-            resHeight: 720,
+            resHeight: 620,
             fullscreen: false,
             autoConnect: true,
             launchDetached: true
